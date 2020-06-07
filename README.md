@@ -11,7 +11,7 @@ For Example :
 - Other Noble Purposes
 
 Stay updated with my blog :
-Network Pen-Test tool [SOON] # if there is more support
+# Network Pen-Test tool [SOON] (if there is more support)
 https://blueeaglehacks.blogspot.com/2019/11/tool-this-tool-is-considered-as-remote.html
 
 
