@@ -14,7 +14,8 @@ Stay updated with my blog :
 # Network Pen-Test tool [SOON] (if there is more support)
 https://blueeaglehacks.blogspot.com/2019/11/tool-this-tool-is-considered-as-remote.html
 
-# for some help in network enumerators : https://www.novirusthanks.org/products/netsharemon/
+# for some help in network enumerators : 
+https://www.novirusthanks.org/products/netsharemon/
 # LAN Enumerator Hints : 
 - Kindly  check default ports for (MYSQL / MSSQL / ORCALE / etc. ) Databases (search about it)
 - Check also default ports
