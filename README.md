@@ -26,6 +26,7 @@ https://blueeaglehacks.blogspot.com/2019/11/tool-this-tool-is-considered-as-remo
 - Check the SCCM ip address (if you got this , you can install a pre-infected ".wim" whole windows image allover network computers 🤣)
 - Check the DC servers ip address (domain controller) (if you got that you can elevate any user groups into network admins)
 - all of above also , you can check "VSHPERE" computers which are carrying all of that , and can also check it`s exploits and can add them into victim pc and execute them to infect the whole Vmware ESXI 🤣 
+- and after all of that , there is more and more and more , Stay Tuned 😉😉
 
 # Fork & Support 🥰, for more sources 🥰
 # [Tutorial Video Old Source](https://www.youtube.com/watch?v=mn2wdL4yiuM "Tutorial 1") 
