@@ -14,7 +14,18 @@ Stay updated with my blog :
 # Network Pen-Test tool [SOON] (if there is more support)
 https://blueeaglehacks.blogspot.com/2019/11/tool-this-tool-is-considered-as-remote.html
 
-
+# for some help in network enumerators : https://www.novirusthanks.org/products/netsharemon/
+# LAN Enumerator Hints : 
+- Kindly  check default ports for (MYSQL / MSSQL / ORCALE / etc. ) Databases (search about it)
+- Check also default ports
+- Check Shared Folders Ports 
+- Check Firewalls names 
+- Get Host name from local ip on LAN , and check if that is tree from the forest or not 
+- most of organizations uses word "mail" to mail there mail servers 
+- Check the WSUS ip address [there is a tinty log file in victim pc you will find for WSUS update and inside it you will find its ip] 🤣 (if you got this , you can insert a trojan patch in update , all the network computers will catch that trojan as an update patch 🤣🤣🤣 )
+- Check the SCCM ip address (if you got this , you can install a pre-infected ".wim" whole windows image allover network computers 🤣)
+- Check the DC servers ip address (domain controller) (if you got that you can elevate any user groups into network admins)
+- all of above also , you can check "VSHPERE" computers which are carrying all of that , and can also check it`s exploits and can add them into victim pc and execute them to infect the whole Vmware ESXI 🤣 
 
 # Fork & Support 🥰, for more sources 🥰
 # [Tutorial Video Old Source](https://www.youtube.com/watch?v=mn2wdL4yiuM "Tutorial 1") 
