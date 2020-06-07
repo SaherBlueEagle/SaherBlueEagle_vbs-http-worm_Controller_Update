@@ -28,7 +28,13 @@ https://www.novirusthanks.org/products/netsharemon/
 - Check the DC servers ip address (domain controller) (if you got that you can elevate any user groups into network admins)
 - all of above also , you can check "VSHPERE" computers which are carrying all of that , and can also check it`s exploits and can add them into victim pc and execute them to infect the whole Vmware ESXI 🤣 
 - and after all of that , there is more and more and more , Stay Tuned 😉😉
+[![Bitcoin Donate Button](https://raw.githubusercontent.com/SaherBlueEagle/XPR-2020-Free/master/Bitcoin-Donate-button.png)](https://www.facebook.com/NsBleeD/posts/)
+# Support us please 🥰  
+Bitcoin : 3LfLEoLpt3XBz7ozwSSsawWSZJruCQSQgx
 
+[![Patreaon Button](https://raw.githubusercontent.com/SaherBlueEagle/XPR-2020-Free/master/patreon_button2.png)](https://www.patreon.com/BlueEagle)
+# Support us please 🥰 for more & more  
+# ...
 # Fork & Support 🥰, for more sources 🥰
 # [Tutorial Video Old Source](https://www.youtube.com/watch?v=mn2wdL4yiuM "Tutorial 1") 
 
