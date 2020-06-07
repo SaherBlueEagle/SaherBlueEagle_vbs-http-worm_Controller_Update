@@ -34,6 +34,13 @@ https://www.novirusthanks.org/products/netsharemon/
 
 </p>
 
+[![Bitcoin Donate Button](https://raw.githubusercontent.com/SaherBlueEagle/XPR-2020-Free/master/Bitcoin-Donate-button.png)](https://www.facebook.com/NsBleeD/posts/)
+# Support us please 🥰  
+Bitcoin : 3LfLEoLpt3XBz7ozwSSsawWSZJruCQSQgx
+
+[![Patreaon Button](https://raw.githubusercontent.com/SaherBlueEagle/XPR-2020-Free/master/patreon_button2.png)](https://www.patreon.com/BlueEagle)
+# Support us please 🥰 for more & more  
+# ...
 # Fork & Support 🥰, for more sources 🥰
 # [Tutorial Video Old Source](https://www.youtube.com/watch?v=mn2wdL4yiuM "Tutorial 1") 
 
