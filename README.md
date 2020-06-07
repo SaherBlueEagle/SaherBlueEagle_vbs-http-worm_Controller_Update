@@ -11,12 +11,12 @@ For Example :
 - Other Noble Purposes
 
 Stay updated with my blog :
-Network Pen-Test tool [SOON if there is more support]
+Network Pen-Test tool [SOON] # if there is more support
 https://blueeaglehacks.blogspot.com/2019/11/tool-this-tool-is-considered-as-remote.html
 
 
 
-# Fork & Support 🥰, for the source 🥰
+# Fork & Support 🥰, for more sources 🥰
 # [Tutorial Video Old Source](https://www.youtube.com/watch?v=mn2wdL4yiuM "Tutorial 1") 
 
 # [Tutorial Video convert it Multi OS RAT , HTTP Protocol (Not Released YET)](https://www.youtube.com/watch?v=bKWGJ8qyGFo "Tutorial 2")
