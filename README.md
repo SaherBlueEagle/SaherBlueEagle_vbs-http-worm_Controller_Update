@@ -33,6 +33,11 @@ https://www.novirusthanks.org/products/netsharemon/
 - all of above also , you can check "VSHPERE" computers which are carrying all of that , and can also check it`s exploits and can add them into victim pc and execute them to infect the whole Vmware ESXI 🤣 
 - and after all of that , there is more and more and more , Stay Tuned 😉😉
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/SaherBlueEagle/SaherBlueEagle_vbs-http-worm_Controller_Update/master/sample%20network%20diagram.jpg" ><br>
+
+</p>
+
 [![Bitcoin Donate Button](https://raw.githubusercontent.com/SaherBlueEagle/XPR-2020-Free/master/Bitcoin-Donate-button.png)](https://www.facebook.com/NsBleeD/posts/)
 # Support us please 🥰  
 Bitcoin : 3LfLEoLpt3XBz7ozwSSsawWSZJruCQSQgx
