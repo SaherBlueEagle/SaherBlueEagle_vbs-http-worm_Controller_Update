@@ -11,7 +11,10 @@ For Example :
 - Other Noble Purposes
 
 # Support us please 🥰 for more & more  
+# Donate please 🥰  
+# If you like my work, consider buying me a Nescafe coffee Or Energy Drink 🥰 
 
+# Bitcoin : 3LfLEoLpt3XBz7ozwSSsawWSZJruCQSQgx
 [![Facebook Button](https://raw.githubusercontent.com/SaherBlueEagle/XPR-2020-Free/master/facebook_button.png)](https://www.facebook.com/NsBleeD/posts/)
 
 Stay updated with my blog :
